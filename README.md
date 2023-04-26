@@ -1,5 +1,5 @@
 # MontyPay-flutter-sdk
-![](https://jitpack.io/v/MontyPay/MontyPay-android-sdk.svg) | [View SDK Wiki](https://github.com/MontypayApi/MontyPay-android-sdk/wiki) | [Report new issue](https://github.com/MontypayApi/MontyPay-android-sdk/issues/new)
+![](https://jitpack.io/v/MontyPay/MontyPay-android-sdk.svg) | [View SDK Wiki](https://github.com/MontypayApi/MontyPay-flutter-sdk/wiki) | [Report new issue](https://github.com/MontypayApi/MontyPay-android-sdk/issues/new)
 
 # MontyPay Flutter SDK
 
