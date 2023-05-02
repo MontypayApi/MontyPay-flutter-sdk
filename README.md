@@ -19,46 +19,60 @@ To get used to the SDK, download a [sample app](https://github.com/MontypayApi/M
 
 ## Setup and Installation
 
-Add to the root build.gradle:
+This Flutter plugin is based on iOS and Android native libraries. You need to add the jitpack repository support and credentials to the gradle to access the secured Android library. Follow Below
+
+**Setup Android** Add to the root build.gradle in Android Project at Path:(${ProjectRoot}/android/build.gradle):
 
 ```groovy
+
 allprojects {
     repositories {
         ...
         jcenter()
-        maven { url 'https://jitpack.io' }
+        maven {
+            url 'https://jitpack.io'
+            credentials { username 'jp_tjnosefflebgig8l3i0q6cgf09' }
+        }
     }
 }
 ```
 
-Add to the package build.gradle:
+Setup iOS iOS does not required any setup just install flutter plugin where the iOS framewework is embedded within the plugin in iOS plaform directory. If you need to enable Apple Pay in your app it can be enable by following the instructions at [Link](https://github.com/MontypayApi/MontyPay-flutter-sdk/wiki/MontyPay)
+
+## Installting Flutter Plugin
+
+In the dependencies: section of your pubspec.yaml, add the following lines:
 
 ```groovy
-dependencies {
-    implementation 'com.github.MontyPay:MontyPay-android-sdk:{latest-version}'
-}
+
+dependencies:
+  intl: ^0.17.0
+  expresspay_sdk: any
+  
 ```
 
+## Initialize SDK
 
-## Sample
+```groovy
 
-| Sale | Recurring Sale | Capture |
-|-|-|-|
-| ![](/media/sale.gif) | ![](/media/recurring-sale.gif) | ![](/media/capture.gif) |
+ExpresspaySdk.instance.config(
+    key: MERCHANT_CLIENT_KEY, // Your Secret Merchant Key
+    password: MERCHANT_CLIENT_PASSWORD,  // Your Secret Merchant Password
+    enableDebug: true
+);
 
-| Creditvoid | Get Trans Status | Get Trans Details |
-|-|-|-|
-| ![](/media/creditvoid.gif) | ![](/media/get-trans-status.gif) | ![](/media/get-trans-details.gif) |
+``` 
+[More Detail](https://github.com/MontypayApi/MontyPay-flutter-sdk/wiki)
 
 ## Getting help
 
-To report a specific issue or feature request, open a [new issue](https://github.com/MontypayApi/MontyPay-android-sdk/issues).
+To report a specific issue or feature request, open a [new issue](https://github.com/MontypayApi/MontyPay-flutter-sdk/issues).
 
 Or write a direct letter to the [support@montypay.com](mailto:support@montypay.com).
 
 ## License
 
-MIT License. See the [LICENSE](https://github.com/MontypayApi/MontyPay-android-sdk/blob/main/LICENSE) file for more details.
+MIT License. See the [LICENSE](https://github.com/MontypayApi/MontyPay-flutter-sdk/blob/main/LICENSE) file for more details.
 
 ## Contacts
 
