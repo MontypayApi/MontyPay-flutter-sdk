@@ -17,7 +17,7 @@ To properly set up the SDK, read [Wiki](https://github.com/MontypayApi/MontyPay-
 
 To get used to the SDK, download a [sample app](https://github.com/MontypayApi/MontyPay-flutter-sdk/tree/main/sample).
 
-## Setup
+## Setup and Installation
 
 Add to the root build.gradle:
 
