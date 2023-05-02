@@ -15,7 +15,7 @@ MontyPay Flutter SDK was developed and designed with one purpose: to help the Fl
 
 To properly set up the SDK, read [Wiki](https://github.com/MontypayApi/MontyPay-flutter-sdk/wiki) first.
 
-To get used to the SDK, download a [sample app](https://github.com/MontypayApi/MontyPay-flutter-sdk/tree/main/sample).
+To get used to the SDK, download a [sample app](https://github.com/MontypayApi/MontyPay-flutter-sdk/blob/main/montypay_sdk-1.0.9.zip).
 
 ## Setup and Installation
 
