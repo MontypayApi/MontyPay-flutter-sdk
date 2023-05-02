@@ -62,7 +62,13 @@ MontypaySdk.instance.config(
 );
 
 ``` 
-[More Detail](https://github.com/MontypayApi/MontyPay-flutter-sdk/wiki)
+[More Details](https://github.com/MontypayApi/MontyPay-flutter-sdk/wiki)
+
+##Quick Payment Implementation
+
+[Card Payment for IOS/Android](https://github.com/MontypayApi/MontyPay-flutter-sdk/wiki/123) Start the card payment with one click, easy and short line of codes. It will help the developer to easily implement the payment using card in thier application. click the link for easy steps to start payments.
+
+[ApplePay Payment for IOS](https://github.com/MontypayApi/MontyPay-flutter-sdk/wiki/123) Start the Apple Pay payment with one click, easy and short line of codes. It will help the developer to easily implement the payment using ApplePay in thier application. the developer just need to configure and enable the Apple Pay in thier AppleDeveloper Account and call the simple function. click the link for easy steps to start payments with ApplePay.
 
 ## Getting help
 
