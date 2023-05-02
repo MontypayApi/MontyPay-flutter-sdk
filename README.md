@@ -47,7 +47,7 @@ In the dependencies: section of your pubspec.yaml, add the following lines:
 
 dependencies:
   intl: ^0.17.0
-  expresspay_sdk: any
+  montypay_sdk: any
   
 ```
 
@@ -55,7 +55,7 @@ dependencies:
 
 ```groovy
 
-ExpresspaySdk.instance.config(
+MontypaySdk.instance.config(
     key: MERCHANT_CLIENT_KEY, // Your Secret Merchant Key
     password: MERCHANT_CLIENT_PASSWORD,  // Your Secret Merchant Password
     enableDebug: true
