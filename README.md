@@ -13,7 +13,7 @@ Monty Pay Is a global payment gateway founded as a subsidiary of Monty Capital w
 
 MontyPay Flutter SDK was developed and designed with one purpose: to help the Flutter developers easily integrate the MontyPay API Payment Platform for a specific merchant. 
 
-To properly set up the SDK, read [Wiki](https://github.com/MontypayApi/MontyPay-android-sdk/wiki) first.
+To properly set up the SDK, read [Wiki](https://github.com/MontypayApi/MontyPay-flutter-sdk/wiki) first.
 
 To get used to the SDK, download a [sample app](https://github.com/MontypayApi/MontyPay-flutter-sdk/tree/main/sample).
 
