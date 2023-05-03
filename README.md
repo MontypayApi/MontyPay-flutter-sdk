@@ -37,7 +37,7 @@ allprojects {
 }
 ```
 
-Setup iOS iOS does not required any setup just install flutter plugin where the iOS framewework is embedded within the plugin in iOS plaform directory. If you need to enable Apple Pay in your app it can be enable by following the instructions at [Link](https://github.com/MontypayApi/MontyPay-flutter-sdk/wiki/MontyPay)
+Setup iOS iOS does not required any setup just install flutter plugin where the iOS framewework is embedded within the plugin in iOS plaform directory. If you need to enable Apple Pay in your app it can be enable by following the instructions at [Link](https://github.com/MontypayApi/MontyPay-flutter-sdk/wiki/MontyPay-ApplePay-Payment)
 
 ## Installting Flutter Plugin
 
